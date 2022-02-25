@@ -1,7 +1,6 @@
 # Paper Reading of the speech and text pretraining
 ## Simple intro
-This repositories is a collaction of the __recent paper__. I am a beginner research of speech and text pretraining and robust speech recognition. I will put the worthy reading paper here and do a conclusion of different paper.
-🌟后面嫌麻烦就用中文了
+🌟This repositories is a collaction of the __recent paper__. I am a beginner research of speech and text pretraining and robust speech recognition. I will put the worthy reading paper here and do a conclusion of different paper.
 
 ## Paper list
 ### Speech pretraining
