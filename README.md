@@ -14,8 +14,7 @@
 * 2022
   * [Self-supervised Learning with Random-projection Quantizer for Speech Recognition](https://arxiv.org/abs/2202.01855)-*CC Chiu et al*, `arXiv 2022`, (__Google__)
 
-  * [data2vec: A General Framework for Self-supervised Learning in Speech, Vision and Language](https://arxiv.org/abs/2202.03555)-*A Baevski et al*, `arXiv 2022`, (__Meta AI__)
-    + <details><summary>simple intro</summary><p>这篇是是一篇有启发性的文章，但是其模型训练难度非常大需要细调，介绍了一种general的训练方式，使用unmask的输入做为teacher去指导mask的输入，并且将mask输入模型的top N层拿出来做average作为student的标签，有点像不会做完型填空的我，在看着答案想我为啥这里选A，哈哈哈。另外teacher 在训练时也是有梯度的，其梯度和student的梯度进行了一个加权和。不过这篇论文只在三个领域内各自训练，跨领域估计很难收敛吧。</p></details>
+  * [data2vec: A General Framework for Self-supervised Learning in Speech, Vision and Language](https://arxiv.org/abs/2202.03555)-*A Baevski et al*, `arXiv 2022`, (__Meta AI__) <details><summary>simple intro</summary><p>这篇是是一篇有启发性的文章，但是其模型训练难度非常大需要细调，介绍了一种general的训练方式，使用unmask的输入做为teacher去指导mask的输入，并且将mask输入模型的top N层拿出来做average作为student的标签，有点像不会做完型填空的我，在看着答案想我为啥这里选A，哈哈哈。另外teacher 在训练时也是有梯度的，其梯度和student的梯度进行了一个加权和。不过这篇论文只在三个领域内各自训练，跨领域估计很难收敛吧。</p></details>
 
 ## Result compair
 ### ASR task
