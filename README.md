@@ -5,8 +5,7 @@
 ## Paper list
 ### Speech pretraining
 * 2021
-  * [HuBERT: Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units](https://arxiv.org/abs/2106.07447)-*WN Hsu et al*, `TASLP 2021`, (__Google__)
-    + <details><summary>simple intro</summary><p>这篇应该无人不知无人不晓吧，使用聚类方法生成pseudo label来进行预训练，同时也借鉴wav2vec系列论文使用mask方法来进行预训练，论文中解释：mask 方法可以让网络学习语音的表征，predict pseudo label可以让模型学习一个时域上上下文的关系，并且两个目标是一致的，这种一致性也是模型能够成功的原因之一。</p></details>
+  * [HuBERT: Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units](https://arxiv.org/abs/2106.07447)-*WN Hsu et al*, `TASLP 2021`, (__Google__) <details><summary>simple intro</summary><p>这篇应该无人不知无人不晓吧，使用聚类方法生成pseudo label来进行预训练，同时也借鉴wav2vec系列论文使用mask方法来进行预训练，论文中解释：mask 方法可以让网络学习语音的表征，predict pseudo label可以让模型学习一个时域上上下文的关系，并且两个目标是一致的，这种一致性也是模型能够成功的原因之一。</p></details>
 
   * [WavLM: Large-Scale Self-Supervised Pre-Training for Full Stack Speech Processing](https://arxiv.org/abs/2110.13900)-*S Chen et al*, `arXiv 2021`, (__Microsoft__)
 
