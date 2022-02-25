@@ -16,3 +16,12 @@ This repositories is a collaction of the __recent paper__. I am a beginner resea
 > __Meta AI__
 > 
 > 这篇是是一篇有启发性的文章，但是其模型训练难度非常大需要细调，介绍了一种general的训练方式，使用unmask的输入做为teacher去指导mask的输入，并且将mask输入模型的top N层拿出来做average作为student的标签，有点像不会做完型填空的我，在看着答案想我为啥这里选A，哈哈哈。另外teacher 在训练时也是有梯度的，其梯度和student的梯度进行了一个加权和。不过这篇论文只在三个领域内各自训练，跨领域估计很难收敛吧
+
+## Result compair
+### ASR task
+|             | Unlabeled data | LM     | 10m  | 1h   | 10h | 100h | 960h |
+|-------------|----------------|--------|------|------|-----|------|------|
+| wav2vec 2.0 | LS-960         | 4-gram | 15.6 | 11.3 | 9.5 | 8.0  | 6.1  |
+| HuBERT      | LS-960         | 4-gram | 15.3 | 11.3 | 9.4 | 8.1  | -    |
+| WavLM       | LS-960         | 4-gram | -    | 10.8 | 9.2 | 7.7  | -    |
+| data2vec    | LS-960         | 4-gram | 12.3 | 9.1  | 8.1 | 6.8  | 5.5  |
